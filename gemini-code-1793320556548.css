@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f9f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header nav a {
+    color: #c8e6c9;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.content-section, .game-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.content-section h2, .game-section h2 {
+    color: #2e7d32;
+    border-bottom: 2px solid #a5d6a7;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #e8f5e9;
+    border-left: 5px solid #4caf50;
+    border-radius: 4px;
+}
+
+article a {
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+/* Área do Jogo */
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+canvas {
+    background-color: #1a1a1a;
+    border: 3px solid #333;
+    border-radius: 4px;
+    cursor: crosshair;
+}
+
+#ui-panel {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 4px 4px;
+}

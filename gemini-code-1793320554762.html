@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Eco & Eco-Quest RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portal da Sustentabilidade</h1>
+        <nav>
+            <a href="#artigos">Artigos e Temas</a>
+            <a href="#jogo">Eco-Quest (RPG)</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="artigos" class="content-section">
+            <h2>Temas e Artigos Científicos</h2>
+            
+            <article>
+                <h3>Pegada de Carbono</h3>
+                <p>A pegada de carbono mede o total de emissões de gases de efeito estufa causadas por um indivíduo, evento ou organização. Reduzi-la é vital para combater as mudanças climáticas.</p>
+                <a href="https://scholar.google.com/scholar?q=pegada+de+carbono" target="_blank">Pesquisar artigos sobre o tema</a>
+            </article>
+
+            <article>
+                <h3>Plástico Verde</h3>
+                <p>Produzido a partir de fontes renováveis, como a cana-de-açúcar, o plástico verde não utiliza petróleo, ajudando a reduzir a dependência de combustíveis fósseis.</p>
+            </article>
+
+            <article>
+                <h3>Logística Reversa & Economia Circular</h3>
+                <p>Em vez do modelo "extrair, produzir, descartar", a economia circular e a logística reversa garantem que os resíduos (como embalagens) retornem ao ciclo produtivo.</p>
+            </article>
+
+            <article>
+                <h3>Descarte de Pilhas e Baterias</h3>
+                <p>Pilhas contêm metais pesados (chumbo, mercúrio). O descarte incorreto contamina o solo e lençóis freáticos. Devem ser entregues em pontos de coleta específicos.</p>
+            </article>
+        </section>
+
+        <section id="jogo" class="game-section">
+            <h2>Eco-Quest: A Batalha pela Terra</h2>
+            <p>Use as setas (ou WASD) para mover e clique nos monstros de poluição para atacar. Suba de nível para fortalecer suas habilidades!</p>
+            <div id="game-container">
+                <canvas id="gameCanvas" width="800" height="450"></canvas>
+                <div id="ui-panel">
+                    <p>Nível: <span id="ui-level">1</span></p>
+                    <p>HP: <span id="ui-hp">100</span>/100</p>
+                    <p>XP: <span id="ui-xp">0</span>/100</p>
+                    <p>Habilidade Atual: <strong style="color: #4CAF50;">Raio Purificador</strong></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
